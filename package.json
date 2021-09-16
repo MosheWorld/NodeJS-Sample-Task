@@ -1,0 +1,12 @@
+{
+  "name": "exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.ts",
+  "scripts": {
+    "main": "tsc && node main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
