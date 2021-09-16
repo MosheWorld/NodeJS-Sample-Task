@@ -4,7 +4,7 @@ const getStudents = () => ['Eden', 'Refael', 'Yoni', 'Nitzan', 'Hadas'];
 const getAttendees = () => [['Eden', 'Refael', 'Yoni', 'Nitzan', 'Hadas', 'Ortal'],
     ['Berry', 'Nitzan', 'Yoni', 'Eden', 'Hadas', 'Ortal'],
     ['Maxim', 'Ortal', 'Yoni', 'Refael', 'Nitzan', 'Alex'],
-    ['a', 'Eden', 'Andrew', 'Yoni', 'Nitzan', 'Ortal', 'Nitzan']];
+    ['Eden', 'Andrew', 'Yoni', 'Nitzan', 'Ortal', 'Nitzan']];
 const topNStudentsAttendees = (students, attendees, N) => {
     removeDuplicatesFromAttendees(attendees);
     removeNamesFromAttendeesNotInStudents(students, attendees);

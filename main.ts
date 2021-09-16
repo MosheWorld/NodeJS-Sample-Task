@@ -1,10 +1,10 @@
-const N: number = 3
+const N: number = 3;
 
 const getStudents = (): Array<string> => ['Eden', 'Refael', 'Yoni', 'Nitzan', 'Hadas'];
 const getAttendees = (): Array<Array<string>> => [['Eden', 'Refael', 'Yoni', 'Nitzan', 'Hadas', 'Ortal'],
 ['Berry', 'Nitzan', 'Yoni', 'Eden', 'Hadas', 'Ortal'],
 ['Maxim', 'Ortal', 'Yoni', 'Refael', 'Nitzan', 'Alex'],
-['a', 'Eden', 'Andrew', 'Yoni', 'Nitzan', 'Ortal', 'Nitzan']];
+['Eden', 'Andrew', 'Yoni', 'Nitzan', 'Ortal', 'Nitzan']];
 
 const topNStudentsAttendees = (students: Array<string>, attendees: Array<Array<string>>, N: number): Array<string> => {
     removeDuplicatesFromAttendees(attendees)
