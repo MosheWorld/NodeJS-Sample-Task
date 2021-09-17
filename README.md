@@ -1,5 +1,5 @@
 # Run script from TS to JS.
-Open your terminal and run "node run main" if you want to compile TS into JS and run the script.
+Open your terminal and run "npm run main" if you want to compile TS into JS and run the script.
 
 # Run script from JS.
 Open your terminal and run "node ./main.js".
